@@ -1423,7 +1423,7 @@
                 }), l.a.createElement(C, {
                     className: "right bold dark w-auto",
                     pdfMode: t
-                }, ("undefined" !== typeof b && "undefined" !== typeof k ? b + k : 0).toFixed(2)))))), l.a.createElement(S, {
+                }, ("undefined" !== typeof b && "undefined" !== typeof k ? b : 0).toFixed(2)))))), l.a.createElement(S, {
                     className: "mt-20",
                     pdfMode: t
                 }, l.a.createElement(x, {
