@@ -1441,24 +1441,6 @@
                         return G("notes", e)
                     },
                     pdfMode: t
-                })), l.a.createElement(S, {
-                    className: "mt-20",
-                    pdfMode: t
-                }, l.a.createElement(x, {
-                    className: "bold w-100",
-                    value: v.termLabel,
-                    onChange: function(e) {
-                        return G("termLabel", e)
-                    },
-                    pdfMode: t
-                }), l.a.createElement(h, {
-                    className: "w-100",
-                    rows: 2,
-                    value: v.term,
-                    onChange: function(e) {
-                        return G("term", e)
-                    },
-                    pdfMode: t
                 }))))
             };
             var T = function() {
