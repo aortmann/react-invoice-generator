@@ -1245,19 +1245,7 @@
                 }, l.a.createElement(S, {
                     className: "w-40",
                     pdfMode: t
-                }), l.a.createElement(S, {
-                    className: "w-60",
-                    pdfMode: t
-                }, l.a.createElement(y, {
-                    value: Object(I.
-                    default)(F, "MMM dd, yyyy"),
-                    selected: F,
-                    onChange: function(e) {
-                        return G("invoiceDueDate", e && !Array.isArray(e) ? Object(I.
-                        default)(e, "MMM dd, yyyy") : "")
-                    },
-                    pdfMode: t
-                }))))), l.a.createElement(S, {
+                })), l.a.createElement(S, {
                     className: "mt-30 bg-dark flex",
                     pdfMode: t
                 }, l.a.createElement(S, {
@@ -1388,9 +1376,6 @@
                 }, l.a.createElement(S, {
                     className: "flex",
                     pdfMode: t
-                }, l.a.createElement(S, {
-                    className: "w-50 p-5",
-                    pdfMode: t
                 }, l.a.createElement(x, {
                     value: v.subTotalLabel,
                     onChange: function(e) {
@@ -1406,10 +1391,7 @@
                 }, null === b || void 0 === b ? void 0 : b.toFixed(2)))), l.a.createElement(S, {
                     className: "flex",
                     pdfMode: t
-                }, l.a.createElement(S, {
-                    className: "w-50 p-5",
-                    pdfMode: t
-                })), l.a.createElement(S, {
+                }), l.a.createElement(S, {
                     className: "w-50 p-5",
                     pdfMode: t
                 }, l.a.createElement(C, {
@@ -1462,7 +1444,14 @@
                 })), l.a.createElement(S, {
                     className: "mt-20",
                     pdfMode: t
-                }, l.a.createElement(h, {
+                }, l.a.createElement(x, {
+                    className: "bold w-100",
+                    value: v.termLabel,
+                    onChange: function(e) {
+                        return G("termLabel", e)
+                    },
+                    pdfMode: t
+                }), l.a.createElement(h, {
                     className: "w-100",
                     rows: 2,
                     value: v.term,
@@ -1470,7 +1459,7 @@
                         return G("term", e)
                     },
                     pdfMode: t
-                })))
+                }))))
             };
             var T = function() {
                 return l.a.createElement("div", {
