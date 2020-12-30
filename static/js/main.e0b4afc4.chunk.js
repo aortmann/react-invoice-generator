@@ -1175,17 +1175,17 @@
                     className: "w-55",
                     pdfMode: t
                 }, l.a.createElement(x, {
-                    className: "bold dark mb-5",
-                    value: v.billTo,
-                    onChange: function(e) {
-                        return G("billTo", e)
-                    },
-                    pdfMode: t
-                }), l.a.createElement(x, {
                     placeholder: "Your Client's Name",
                     value: v.clientName,
                     onChange: function(e) {
                         return G("clientName", e)
+                    },
+                    pdfMode: t
+                }), l.a.createElement(x, {
+                    placeholder: "Client's Address",
+                    value: v.clientAddress,
+                    onChange: function(e) {
+                        return G("clientAddress", e)
                     },
                     pdfMode: t
                 })), l.a.createElement(S, {
@@ -1245,7 +1245,7 @@
                 }, l.a.createElement(S, {
                     className: "w-40",
                     pdfMode: t
-                })), l.a.createElement(S, {
+                })))), l.a.createElement(S, {
                     className: "mt-30 bg-dark flex",
                     pdfMode: t
                 }, l.a.createElement(S, {
@@ -1376,6 +1376,9 @@
                 }, l.a.createElement(S, {
                     className: "flex",
                     pdfMode: t
+                }, l.a.createElement(S, {
+                    className: "w-50 p-5",
+                    pdfMode: t
                 }, l.a.createElement(x, {
                     value: v.subTotalLabel,
                     onChange: function(e) {
@@ -1391,13 +1394,10 @@
                 }, null === b || void 0 === b ? void 0 : b.toFixed(2)))), l.a.createElement(S, {
                     className: "flex",
                     pdfMode: t
-                }), l.a.createElement(S, {
+                }, l.a.createElement(S, {
                     className: "w-50 p-5",
                     pdfMode: t
-                }, l.a.createElement(C, {
-                    className: "right bold dark",
-                    pdfMode: t
-                }, null === k || void 0 === k ? void 0 : k.toFixed(2)))), l.a.createElement(S, {
+                })), l.a.createElement(S, {
                     className: "flex bg-gray p-5",
                     pdfMode: t
                 }, l.a.createElement(S, {
@@ -1441,7 +1441,10 @@
                         return G("notes", e)
                     },
                     pdfMode: t
-                }))))
+                })), l.a.createElement(S, {
+                    className: "mt-20",
+                    pdfMode: t
+                })))
             };
             var T = function() {
                 return l.a.createElement("div", {
